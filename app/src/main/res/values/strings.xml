@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AndroidCourse</string>
+    <string name="lukes_dad">Luke, I am your father</string>
+
+
+    <string name="country_prompt">Choose a country</string>
+    <string name="select">Select</string>
+    <string name="message">Message</string>
+    <string name="empty_input_message">No ingreso ningún mensaje.</string>
+    <string name="inster_a_message_to_send">Ingresa un mensaje que enviar.</string>
+    <string name="change">Change</string>
+
+    <string-array name="country_arrays">
+        <item>México🇲🇽</item>
+        <item>Malaysia 🇲🇾</item>
+        <item>United States 🇺🇸</item>
+        <item>Indonesia 🇮🇩</item>
+        <item>France 🇫🇷</item>
+        <item>Italy 🇮🇹</item>
+        <item>Singapore 🇸🇬</item>
+        <item>New Zealand 🇳🇿</item>
+    </string-array>
+</resources>
