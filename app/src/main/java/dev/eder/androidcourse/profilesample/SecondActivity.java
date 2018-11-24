@@ -1,4 +1,4 @@
-package dev.eder.androidcourse;
+package dev.eder.androidcourse.profilesample;
 
 import android.content.Intent;
 import android.support.constraint.ConstraintLayout;
@@ -13,6 +13,7 @@ import android.widget.Toast;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import dev.eder.androidcourse.R;
 import dev.eder.androidcourse.Util.KeysConstants;
 import dev.eder.androidcourse.Util.Util;
 
