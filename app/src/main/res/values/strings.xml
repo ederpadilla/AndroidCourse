@@ -9,6 +9,14 @@
     <string name="empty_input_message">No ingreso ningún mensaje.</string>
     <string name="inster_a_message_to_send">Ingresa un mensaje que enviar.</string>
     <string name="change">Change</string>
+    <string name="get_location">Get location</string>
+    <string name="invalid_password">Invalid PAss</string>
+    <string name="invalid_mail">Invalid Mail</string>
+    <string name="successs_login">Vientos ! Bienvenido!</string>
+    <string name="empty_fields">Empty Fields.</string>
+    <string name="hello">Hola</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Logout</string>
 
     <string-array name="country_arrays">
         <item>México🇲🇽</item>
@@ -20,4 +28,8 @@
         <item>Singapore 🇸🇬</item>
         <item>New Zealand 🇳🇿</item>
     </string-array>
+
+    <string name="red">RED</string>
+    <string name="blue">BLUE</string>
+    <string name="green">GREEN</string>
 </resources>

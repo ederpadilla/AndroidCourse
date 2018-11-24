@@ -33,20 +33,23 @@ public class MoreComponentsActivity extends AppCompatActivity {
     }
 
     public void addListenerOnSpinnerItemSelection() {
-        spinner = findViewById(R.id.spinner1);
         spinner.setOnItemSelectedListener(new CustomOnItemSelectedListener());
     }
 
     // add items into spinner dynamically
     public void addItemsOnSpinner2() {
-        List<String> list = new ArrayList<>();
-        list.add("List 1");
-        list.add("List 2");
-        list.add("List 3");
-        ArrayAdapter<String> dataAdapter = new ArrayAdapter<>(this,
-                R.layout.spinner_item, list);
+        List<String> listNames = new ArrayList<>();
+        listNames.add("Erick");
+        listNames.add("Paulo");
+        listNames.add("Diego");
+        listNames.add("Moctezuma");
+        listNames.add("Lewis");
+        listNames.add("Mamaldo");
+        ArrayAdapter<String> dataAdapter = new ArrayAdapter<>(MoreComponentsActivity.this,
+                R.layout.spinner_item,listNames);
         dataAdapter.setDropDownViewResource(R.layout.spinner_item);
         spinner2.setAdapter(dataAdapter);
+
     }
 
 

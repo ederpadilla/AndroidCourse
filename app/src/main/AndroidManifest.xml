@@ -4,6 +4,9 @@
     package="dev.eder.androidcourse">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -30,17 +33,22 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".SubMenuSampleActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".intentssamples.FirstActivity"
-            android:screenOrientation="portrait">
-        </activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".intentssamples.SecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".framesample.FrameSampleActivity"
             android:screenOrientation="portrait"></activity>
-        <activity android:name=".framesample.FrameSampleActivity"
-            android:screenOrientation="portrait">
+        <activity android:name=".location.LocationActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".viewpager.ViewPagerActivity">
 
+        </activity>
+        <activity android:name=".goodviewpager.GoodViewPagerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
