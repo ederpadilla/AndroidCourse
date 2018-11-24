@@ -1,4 +1,4 @@
-package dev.eder.androidcourse;
+package dev.eder.androidcourse.components;
 
 import android.util.Log;
 import android.view.View;

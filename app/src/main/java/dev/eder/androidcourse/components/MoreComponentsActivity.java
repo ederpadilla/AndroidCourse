@@ -1,4 +1,4 @@
-package dev.eder.androidcourse;
+package dev.eder.androidcourse.components;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -9,10 +9,11 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import dev.eder.androidcourse.R;
 
 public class MoreComponentsActivity extends AppCompatActivity {
 

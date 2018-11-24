@@ -17,28 +17,28 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".MainActivity"
+            android:name=".lifecycle.MainActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".SecondActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ComponentsActivity"
+            android:name=".components.ComponentsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MoreComponentsActivity"
+            android:name=".components.MoreComponentsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MenuSampleActivity"
+            android:name=".menu.MenuSampleActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SubMenuSampleActivity"
+            android:name=".menu.SubMenuSampleActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".intentssamples.FirstActivity"
+            android:name=".notificationsample.FirstActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".intentssamples.SecondActivity"
+            android:name=".notificationsample.SecondActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".framesample.FrameSampleActivity"

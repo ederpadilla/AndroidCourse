@@ -1,4 +1,4 @@
-package dev.eder.androidcourse.intentssamples;
+package dev.eder.androidcourse.notificationsample;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -16,7 +16,7 @@ import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import dev.eder.androidcourse.KeysConstants;
+import dev.eder.androidcourse.Util.KeysConstants;
 import dev.eder.androidcourse.R;
 
 public class SecondActivity extends AppCompatActivity {

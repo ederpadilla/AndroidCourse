@@ -1,4 +1,4 @@
-package dev.eder.androidcourse;
+package dev.eder.androidcourse.menu;
 
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TextView;
+
+import dev.eder.androidcourse.R;
 
 public class SubMenuSampleActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package dev.eder.androidcourse;
+package dev.eder.androidcourse.lifecycle;
 
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import java.io.IOException;
 import java.io.InputStream;
+
+import dev.eder.androidcourse.R;
 
 public class MainActivity extends AppCompatActivity {
 

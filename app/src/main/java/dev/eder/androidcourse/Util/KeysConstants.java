@@ -1,4 +1,4 @@
-package dev.eder.androidcourse;
+package dev.eder.androidcourse.Util;
 
 public class KeysConstants {
 

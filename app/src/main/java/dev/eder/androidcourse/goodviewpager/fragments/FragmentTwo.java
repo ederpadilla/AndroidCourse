@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import dev.eder.androidcourse.KeysConstants;
+import dev.eder.androidcourse.Util.KeysConstants;
 import dev.eder.androidcourse.R;
 
 public class FragmentTwo extends Fragment {

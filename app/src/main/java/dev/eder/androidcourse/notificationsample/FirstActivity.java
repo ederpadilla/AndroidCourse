@@ -1,4 +1,4 @@
-package dev.eder.androidcourse.intentssamples;
+package dev.eder.androidcourse.notificationsample;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import dev.eder.androidcourse.KeysConstants;
+import dev.eder.androidcourse.Util.KeysConstants;
 import dev.eder.androidcourse.R;
 
 public class FirstActivity extends AppCompatActivity {

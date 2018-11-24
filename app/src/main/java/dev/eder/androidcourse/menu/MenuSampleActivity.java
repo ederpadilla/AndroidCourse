@@ -1,10 +1,12 @@
-package dev.eder.androidcourse;
+package dev.eder.androidcourse.menu;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import dev.eder.androidcourse.R;
 
 public class MenuSampleActivity extends AppCompatActivity {
 
