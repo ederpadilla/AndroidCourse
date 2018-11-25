@@ -15,4 +15,6 @@ public class KeysConstants {
     public static final int CREATE_MODE = 0;
 
     public static final String DOG_SHOP_ID = "dogShopId";
+
+    public static final int LOCATION_PERMISSION_ID = 135;
 }
