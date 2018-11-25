@@ -48,8 +48,7 @@
         <activity android:name=".profilesample.ProfileActivity" />
         <activity android:name=".goodviewpager.GoodViewPagerActivity" />
         <activity
-            android:name=".db.RealmSampleActivity"
-            android:screenOrientation="portrait">
+            android:name=".db.RealmSampleActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
