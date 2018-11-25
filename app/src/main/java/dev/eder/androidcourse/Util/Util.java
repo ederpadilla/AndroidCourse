@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.util.Log;
 
+import java.util.Random;
+
 public class Util {
 
     public static void showLog(String TAG, String message){
@@ -23,4 +25,11 @@ public class Util {
         activity.finish();
     }
 
+    public static int getRandomNumber(){
+        return  (int)(Math.random()*((3-1)+1))+1;
+    }
+
+    public static int getRandomID(){
+        return  (int)(Math.random()*((30000-1)+1))+1;
+    }
 }
