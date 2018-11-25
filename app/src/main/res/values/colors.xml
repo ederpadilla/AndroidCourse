@@ -6,4 +6,7 @@
 
     <color name="orange">#daed742d</color>
     <color name="red">#c4581414</color>
+
+    <color name="colorRectangle">#455A64</color>
+    <color name="colorBackground">#FFFFD600</color>
 </resources>

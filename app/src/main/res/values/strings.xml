@@ -37,4 +37,7 @@
     <string name="address">Dirección</string>
     <string name="name">Nombre</string>
     <string name="empty_name">Empty name.</string>
+
+    <string name="keep_tapping">Keep tapping.</string>
+    <string name="done">Done!</string>
 </resources>

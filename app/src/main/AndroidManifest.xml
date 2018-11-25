@@ -47,16 +47,26 @@
         <activity android:name=".location.LocationActivity" />
         <activity android:name=".profilesample.ProfileActivity" />
         <activity android:name=".goodviewpager.GoodViewPagerActivity" />
+        <activity android:name=".db.RealmSampleActivity" />
         <activity
-            android:name=".db.RealmSampleActivity">
+            android:name=".db.EditShopActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".draw.CanvasAndPaintActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".musicplayer.MusicActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".videoplayer.VideoActivity">
+        </activity>
+        <activity android:name=".animations.AnimationsSamplesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".db.EditShopActivity"
-            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
